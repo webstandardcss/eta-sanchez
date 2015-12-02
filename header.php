@@ -2,7 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
 <link rel="stylesheet" href="css/bootstrap.css" />
 <link rel="stylesheet" href="css/bootstrap-theme.css" />
 <link rel="stylesheet" href="css/main-style.css" />
