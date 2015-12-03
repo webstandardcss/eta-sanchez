@@ -1,5 +1,5 @@
 <?php
-	$title = "Jose in the News"; 
+	$title = "Jose in the Community"; 
 	include_once('header.php'); 
 	include_once('header_bottom.php'); 
 ?>
@@ -8,7 +8,7 @@
 <section class="contents col-sm-8 pull-right">
 <!-- Contents Starts -->
 
-    <h1>Jose in the News</h1>
+    <h1><?php echo $title; ?></h1>
 	
     <div class="row">
     <!-- Row Starts -->
