@@ -6,7 +6,7 @@
 
 
 <section class="contents col-sm-8 pull-right">
-<!-- Contents Starts -->
+<!-- Firm Overview Contents Starts -->
 
     <h1>Firm Overview</h1>
     <p>Recognized as a Leader in the Community</p>
@@ -46,7 +46,7 @@
         <strong>Call us</strong>
       </a> for a consultation about your case.</p>
     
-<!-- Contents Ends -->
+<!-- Firm Overview Contents Ends -->
 </section>
 
 <aside class="col-sm-4 pull-left">
