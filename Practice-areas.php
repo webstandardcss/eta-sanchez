@@ -39,6 +39,7 @@
         <strong>...</strong>
       </a>
     </p>
+    <?php if (0) { /* start commented html
     <h4><a href="Criminal-Defense.php">Criminal Defense</a></h4>
     <p>When you are facing charges for DUI, drug crimes or assault, it may seem as if the odds are stacked against you. You need a lawyer on your side who you can trust to protect your rights. You can rest assured knowing that Jose Sanchez Law Firm, P.C.,
       <a href="Criminal-Defense.php">
@@ -63,6 +64,7 @@
         <strong>...</strong>
       </a>
     </p>
+    /* end commented html */ } ?>
     <h4><a href="Civil-Litigation.php">Civil Litigation</a></h4>
     <p>Civil LitigationProtecting Your Interests When you do not speak English, you can feel like a target for companies or people to take advantage of. Whether you are facing a contract dispute or a denial of an insurance claim, you need an experienced
       <a href="Civil-Litigation.php">
