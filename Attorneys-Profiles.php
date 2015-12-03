@@ -8,7 +8,7 @@
 <section class="contents col-sm-8 pull-right">
 <!-- Attorney Contents Starts -->
 
-    <h1>Attorneys Profiles</h1>
+    <h1>Attorney Profiles</h1>
     <p>As a bilingual law firm for more than nine years we believe in our responsibility to be a voice for our clients. We are committed to doing everything we can to obtain the best possible outcome for your case. Jose Sanchez Law Firm is a name you can trust
       to give you strong representation in cases involving immigration, personal injury, civil litigation and criminal law.</p>
     <p>You can learn more about our experience by visiting the link to the attorney profiles and legal support team directory below:</p>
