@@ -88,21 +88,42 @@
     <div class="clearfix"></div><br />
     <p>The use of the Internet or this form for communication with the firm or any individual member of the firm does not establish an attorney-client relationship. Confidential or time-sensitive information should not be sent through this form.</p>
     <p>Send this message</p>
-    <ul>
-      <li>
-        <strong>Jose Sanchez Law Firm, P.C</strong>
-      </li>
-      <li>507 N Green Street</li>
-      <li>Longview, TX 75601</li>
-      <li>Phone: 903-758-8700</li>
-      <li>Toll Free: 888-709-9023</li>
-      <li>Fax: 903-758-8712</li>
-    </ul>
-    <p>
+
+<div class="row">
+  <h3>Jose Sanchez Law Firm, P.C</h3>
+  
+  <ul class="col-sm-4">
+    <li><strong>East Texas Office</strong></li>
+    <li>507 N Green Street</li>
+    <li>Longview, TX 75601</li>
+    <li>Phone: 903-758-8700</li>
+    <li>Toll Free: 888-709-9023</li>
+    <li>Fax: 903-758-8712</li>
+    <li>
       <a href="https://www.google.com/maps?f=q&hl=en&geocode&q=507+N+Green+Street+Longview,+TX+75601+US">
         <strong>Map and Directions</strong>
       </a>
-    </p>
+    </li>
+  </ul>
+  
+  <ul class="col-sm-4">
+    <li><strong>Dallas Office</strong></li>
+    <li>2911 Turtle Creek Blvd</li>
+    <li>Suite 1400</li>
+    <li>Dallas, Texas 75219</li>
+    <li>Toll Free: 888-709-9023</li>
+    <li>Fax: 903-758-8712</li>
+    <li>
+      <a href="https://www.google.com/maps?f=q&hl=en&geocode&q=2911+Turtle+Creek+Blvd+Dallas,+TX+75219+US">
+        <strong>Map and Directions</strong>
+      </a>
+    </li>
+
+  </ul>
+</div>
+
+
+
 
     
 <!-- Contents Ends -->
