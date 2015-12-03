@@ -100,7 +100,7 @@
     <li>Toll Free: 888-709-9023</li>
     <li>Fax: 903-758-8712</li>
     <li>
-      <a href="https://www.google.com/maps?f=q&hl=en&geocode&q=507+N+Green+Street+Longview,+TX+75601+US">
+      <a href="https://www.google.com/maps?f=q&hl=en&geocode&q=507+N+Green+Street+Longview,+TX+75601+US" target="_blank">
         <strong>Map and Directions</strong>
       </a>
     </li>
@@ -114,7 +114,7 @@
     <li>Toll Free: 888-709-9023</li>
     <li>Fax: 903-758-8712</li>
     <li>
-      <a href="https://www.google.com/maps?f=q&hl=en&geocode&q=2911+Turtle+Creek+Blvd+Dallas,+TX+75219+US">
+      <a href="https://www.google.com/maps?f=q&hl=en&geocode&q=2911+Turtle+Creek+Blvd+Dallas,+TX+75219+US" target="_blank">
         <strong>Map and Directions</strong>
       </a>
     </li>
