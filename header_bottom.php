@@ -42,14 +42,14 @@
                         	<li><a href="PracticeAreas/Wrongful-Death.php">Wrongful Death</a></li>
                         </ul>-->
                         </li>
-                        <li>
-                            <a href="Jose-in-the-News.php">Jose In The News</a>
+                         <li>
+                            <a href="community.php">Community</a>
                         </li>
                         <li>
                             <a href="results.php">Results</a>
                         </li>
                         <li>
-                            <a href="community.php">Community</a>
+                            <a href="Jose-in-the-News.php">Jose In The News</a>
                         </li>
                     </ul>
                 </div>

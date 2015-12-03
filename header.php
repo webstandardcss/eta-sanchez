@@ -46,8 +46,11 @@
         <!-- Logo Ends -->
         </article>
         
-        <article class="phone col-sm-4">
-        	<a href="tel:903-758-8700">903-758-8700</a>
+        <article class="phone col-sm-3">
+            <a href="tel:903-758-8700">903-758-8700</a>
+        </article>
+        <article class="language col-sm-1 col-xs-12">
+            <a href="#"><center>En Espanol</center></a>
         </article>
         
         <div class="clearfix"></div>
