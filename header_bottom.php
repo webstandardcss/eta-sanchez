@@ -16,13 +16,10 @@
                             <a href="index.php">Home</a>
                         </li>
                         <li>
-                            <a href="contactus.php">Contact Our Firm</a>
+                            <a href="contactus.php">Contact</a>
                         </li>
                         <li>
-                            <a href="Firm-Overview.php">Firm Overview</a>
-                        </li>
-                        <li>
-                            <a href="Attorneys-Profiles.php">Attorneys</a>
+                            <a href="Attorneys-Profiles.php">Attorney</a>
                         </li>
                         <li class="dropdown">
                             <a  href="Practice-areas.php">Practice Areas</a>
@@ -47,6 +44,12 @@
                         </li>
                         <li>
                             <a href="Jose-in-the-News.php">Jose In The News</a>
+                        </li>
+                        <li>
+                            <a href="results.php">Results</a>
+                        </li>
+                        <li>
+                            <a href="community.php">Community</a>
                         </li>
                     </ul>
                 </div>
