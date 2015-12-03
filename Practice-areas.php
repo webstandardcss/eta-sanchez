@@ -65,9 +65,9 @@
       </a>
     </p>
     /* end commented html */ } ?>
-    <h4><a href="Civil-Litigation.php">Civil Litigation</a></h4>
-    <p>Civil LitigationProtecting Your Interests When you do not speak English, you can feel like a target for companies or people to take advantage of. Whether you are facing a contract dispute or a denial of an insurance claim, you need an experienced
-      <a href="Civil-Litigation.php">
+    <h4><a href="Business-Litigation.php">Business Litigation</a></h4>
+    <p>Business Litigation, Protecting Your Interests When you do not speak English, you can feel like a target for companies or people to take advantage of. Whether you are facing a contract dispute or a denial of an insurance claim, you need an experienced
+      <a href="Business-Litigation.php">
         <strong>...</strong>
       </a>
     </p>
