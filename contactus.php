@@ -87,7 +87,6 @@
     </form>
     <div class="clearfix"></div><br />
     <p>The use of the Internet or this form for communication with the firm or any individual member of the firm does not establish an attorney-client relationship. Confidential or time-sensitive information should not be sent through this form.</p>
-    <p>Send this message</p>
 
 <div class="row">
   <h3>Jose Sanchez Law Firm, P.C</h3>
