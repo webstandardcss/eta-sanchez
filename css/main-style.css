@@ -362,3 +362,61 @@ footer a:hover {
 	top: 49%;
 	left: 49%;
 }
+
+/* Notable Page Styles Starts */
+.notable-header {
+	background: #fff;
+	padding: 50px;
+	text-align: center;
+}
+
+.notable-header h1 {
+	font-size: 56px;
+	font-weight: bold;
+	color: #4e7181;
+}
+
+.notable-header p {
+	font-size: 20px;
+	color: #000;
+	max-width: 700px;
+	margin: auto;
+}
+
+.notable-results {
+	background: #1a3749;
+	padding: 40px 0;
+	color: #fff;
+}
+
+.notable-results h3 {
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.each-result {
+	margin-top: 20px;
+}
+
+.each-result p {
+	margin-bottom: 10px;
+}
+
+.each-result a {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.each-column {
+	width: 31%;
+	float: left;
+}
+
+.each-column.pad {
+	width: 37%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+/* Notable Page Styles Ends */
