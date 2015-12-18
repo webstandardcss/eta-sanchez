@@ -137,7 +137,7 @@
 <div class="row">
 <!-- Main Container Starts -->
 
-<section class="contents col-sm-8">
+<section class="contents col-sm-8 hide">
 <!-- Contents Starts -->
 
     <h1><?php echo $title ?></h1>
@@ -154,7 +154,7 @@
 <!-- Contents Ends -->
 </section>
 
-<aside class="col-sm-4">
+<aside class="col-sm-4 hide">
 <!-- Aside Starts -->
 	<br />
 	<img src="images/i-default.jpg" alt="Practice Areas" class="img-responsive left-img" />
