@@ -1,14 +1,29 @@
 <?php
-	$title = "Notable Results"; 
+	$title = "Notable Results Details"; 
 	include_once('header.php'); 
 	include_once('header_bottom_results.php'); 
 ?>
 
-<section class="notable-header">
+<section class="notable-header details">
 <!-- Notable Header Starts -->
 
-	<h1>Notable Results</h1>
-	<p class="text-center">At PayneMitchell, we’re here to make the difference. Often, it’s helping victims of negligence or faulty products gain restitution for the personal and financial hardships they’ve incurred. Other times, we rectify conditions that exist in the marketplace, and move industries toward a better, safer way of doing business. But in everything we do, we seek to make a fundamental difference in the lives of the people we represent.</p>
+	<h1>Going the Extra Mile in a Highway Accident</h1>
+	<p>One clear afternoon, a woman’s life was changed forever.</p>
+
+	<p>When her light turned green, she entered an intersection on Texas State Highway 82. Tragically, a truck driver disregarded the red light in front of him. Compounding his error, the brakes on his truck were not in compliance with federal and state regulations.</p>
+
+	<p>In seconds, his 70,000-pound rig slammed into her sedan.</p>
+
+	<p>The impact caused her seatbelt to fail and her door to pop open. She was thrown onto the highway, sustaining massive injuries that resulted in medical bills totaling more than $1 million.</p>
+
+	<p>The trucking company had only $1 million in coverage for the driver–not enough to cover her injuries. She needed an aggressive legal strategy to help her put her life back together, and she turned to PayneMitchell for help.</p>
+
+	<p>We looked beyond simply pursuing the insurance option. We ascertained the full value of the trucking company, and began an aggressive deposition strategy that proved the driver and the company were responsible for the wreck. This enabled us to force the company to pay a confidential sum above the amount covered by the firm’s insurance.</p>
+
+	<p>But we didn’t stop there. Our work revealed a history of problems with the door and the restraint system on the victim’s vehicle. Eventually we were able to secure a significant confidential settlement with the manufacturer of her car as well.</p>
+
+	<p>By going a little further than most other law firms, we were able to help our client obtain the settlements she needed to get her life back on track.
+	</p>
 	
 <!-- Notable Header Ends -->
 </section>
