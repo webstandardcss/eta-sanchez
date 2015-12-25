@@ -7,7 +7,7 @@
 	  <div class="slider-contents">
 		NOTABLE RESULTS
 		<h2>It Weighs Less Than A Nickel</h2>
-		<a href="#">+ More</a>
+		<a href="results_details.php">+ More</a>
 	  </div>
     </div>
 
@@ -16,7 +16,7 @@
 	  <div class="slider-contents">
 		NOTABLE RESULTS
 		<h2>It Weighs Less Than A Nickel</h2>
-		<a href="#">+ More</a>
+		<a href="results_details.php">+ More</a>
 	  </div>
     </div>
 
@@ -25,7 +25,7 @@
 	  <div class="slider-contents">
 		NOTABLE RESULTS
 		<h2>It Weighs Less Than A Nickel</h2>
-		<a href="#">+ More</a>
+		<a href="results_details.php">+ More</a>
 	  </div>
     </div>
   </div>
