@@ -27,17 +27,17 @@
 	
 		<div class="each-result">
 			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
-			<a href="#">+ More</a>
+			<a href="results_details.php">+ More</a>
 		</div>
 	
 		<div class="each-result">
 			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
-			<a href="#">+ More</a>
+			<a href="results_details.php">+ More</a>
 		</div>
 	
 		<div class="each-result">
 			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
-			<a href="#">+ More</a>
+			<a href="results_details.php">+ More</a>
 		</div>
 	
 	<!-- Each Column Ends -->
@@ -48,17 +48,17 @@
 	
 		<div class="each-result">
 			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
-			<a href="#">+ More</a>
+			<a href="results_details.php">+ More</a>
 		</div>
 	
 		<div class="each-result">
 			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
-			<a href="#">+ More</a>
+			<a href="results_details.php">+ More</a>
 		</div>
 	
 		<div class="each-result">
 			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
-			<a href="#">+ More</a>
+			<a href="results_details.php">+ More</a>
 		</div>
 	
 	<!-- Each Column Ends -->
@@ -69,17 +69,17 @@
 	
 		<div class="each-result">
 			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
-			<a href="#">+ More</a>
+			<a href="results_details.php">+ More</a>
 		</div>
 	
 		<div class="each-result">
 			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
-			<a href="#">+ More</a>
+			<a href="results_details.php">+ More</a>
 		</div>
 	
 		<div class="each-result">
 			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
-			<a href="#">+ More</a>
+			<a href="results_details.php">+ More</a>
 		</div>
 	
 	<!-- Each Column Ends -->
