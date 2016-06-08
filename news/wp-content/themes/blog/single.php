@@ -1,5 +1,4 @@
-<?phpget_header();
-?>
+<?php get_header(); ?>  
 
 
 <section class="contents col-sm-8">
@@ -10,7 +9,7 @@
 <aside class="col-sm-4">
 <!-- Aside Starts -->
 	<br />
-	<img src="<?php bloginfo('template_url'); ?>/images/i-default.jpg" alt="Practice Areas" class="img-responsive left-img" />
+	<img src="http://attorneysanchez.com/images/i-default.jpg" alt="Practice Areas" class="img-responsive left-img" />
 	<br />
 	
     <?php get_sidebar(); ?> 

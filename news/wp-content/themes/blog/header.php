@@ -4,15 +4,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
-<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" />
-<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap-theme.css" />
-<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/main-style.css" />
-<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/media.css" />
+<link rel="stylesheet" href="http://attorneysanchez.com/css/bootstrap.css" />
+<link rel="stylesheet" href="http://attorneysanchez.com/css/bootstrap-theme.css" />
+<link rel="stylesheet" href="http://attorneysanchez.com/css/main-style.css" />
+<link rel="stylesheet" href="http://attorneysanchez.com/css/media.css" />
 
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/npm.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/scripts/soundcloud.player.api.js"></script>
+<script type="text/javascript" src="http://attorneysanchez.com/js/jquery.js"></script>
+<script type="text/javascript" src="http://attorneysanchez.com/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://attorneysanchez.com/js/npm.js"></script>
+<script type="text/javascript" src="http://attorneysanchez.com/scripts/soundcloud.player.api.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(e) {
 		// Main Slider Attributes
@@ -42,7 +42,7 @@
 <body>
 <div id="loader">
 	<div class="loader-img">
-		<img src="<?php bloginfo('template_url'); ?>/images/loader.gif" alt="">
+		<img src="http://attorneysanchez.com/images/loader.gif" alt="">
 	</div>
 </div>
 <header>
@@ -53,7 +53,7 @@
     
     	<article class="logo col-sm-8">
         <!-- Logo Starts -->
-        	<a href="index.php"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Attorney Sanchez" class="img-responsive" /></a>
+        	<a href="index.php"><img src="http://attorneysanchez.com/images/logo.png" alt="Attorney Sanchez" class="img-responsive" /></a>
         <!-- Logo Ends -->
         </article>
         
@@ -90,7 +90,7 @@
                             <a href="/Attorneys-Profiles.php">Attorney</a>
                         </li>
                         <li class="dropdown">
-                            <a  href="Practice-areas.php">Practice Areas</a>
+                            <a  href="/Practice-areas.php">Practice Areas</a>
                             <!--<ul class="dropdown-menu" role="menu">class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"
                         	<li><a href="PracticeAreas/Personal-Injury.php">Personal Injury Overview</a></li>
                         	<li><a href="PracticeAreas/Back-Spinal-Cord-Injuries.php">Back and Spinal Cord Injuries</a></li>

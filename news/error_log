@@ -10,3 +10,13 @@
 [08-Jun-2016 20:04:04 UTC] PHP Fatal error:  Call to undefined function phpget_header() in /home/jsanchez/public_html/news/wp-content/themes/blog/index.php on line 1
 [08-Jun-2016 20:04:06 UTC] PHP Fatal error:  Call to undefined function phpget_header() in /home/jsanchez/public_html/news/wp-content/themes/blog/index.php on line 1
 [08-Jun-2016 20:05:10 UTC] PHP Fatal error:  Call to undefined function the_exerpt() in /home/jsanchez/public_html/news/wp-content/themes/blog/index.php on line 2
+[08-Jun-2016 20:05:30 UTC] PHP Fatal error:  Call to undefined function the_exerpt() in /home/jsanchez/public_html/news/wp-content/themes/blog/index.php on line 2
+[08-Jun-2016 20:06:13 UTC] PHP Fatal error:  Call to undefined function the_exerpt() in /home/jsanchez/public_html/news/wp-content/themes/blog/index.php on line 2
+[08-Jun-2016 20:06:30 UTC] PHP Fatal error:  Call to undefined function phpget_header() in /home/jsanchez/public_html/news/wp-content/themes/blog/single.php on line 1
+[08-Jun-2016 20:08:35 UTC] PHP Fatal error:  Call to undefined function the_exerpt() in /home/jsanchez/public_html/news/wp-content/themes/blog/index.php on line 2
+[08-Jun-2016 20:09:19 UTC] PHP Fatal error:  Call to undefined function the_exerpt() in /home/jsanchez/public_html/news/wp-content/themes/blog/index.php on line 2
+[08-Jun-2016 20:10:02 UTC] PHP Fatal error:  Call to undefined function the_exerpt() in /home/jsanchez/public_html/news/wp-content/themes/blog/index.php on line 2
+[08-Jun-2016 20:10:42 UTC] PHP Fatal error:  Call to undefined function the_exerpt() in /home/jsanchez/public_html/news/wp-content/themes/blog/index.php on line 2
+[08-Jun-2016 20:11:10 UTC] PHP Fatal error:  Call to undefined function the_exerpt() in /home/jsanchez/public_html/news/wp-content/themes/blog/index.php on line 2
+[08-Jun-2016 20:11:38 UTC] PHP Fatal error:  Call to undefined function the_exerpt() in /home/jsanchez/public_html/news/wp-content/themes/blog/index.php on line 2
+[08-Jun-2016 20:11:52 UTC] PHP Fatal error:  Call to undefined function the_exerpt() in /home/jsanchez/public_html/news/wp-content/themes/blog/index.php on line 2

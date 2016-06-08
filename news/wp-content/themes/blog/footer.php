@@ -29,7 +29,7 @@ Fax: 903-758-8712<br /></p>
 		</td>
 	</tr>
 	</table>
-			<img src="<?php bloginfo('template_url'); ?>/images/MemberLogo2015_HighRes_s.png" class="" alt="2015 Member American Immigration Lawyers Association" background color="white"height="110" width="110" align="left" >  			
+			<img src="http://attorneysanchez.com/images/MemberLogo2015_HighRes_s.png" class="" alt="2015 Member American Immigration Lawyers Association" background color="white"height="110" width="110" align="left" >  			
     </article>
 
 	<article class="each-section col-sm-4 border">
