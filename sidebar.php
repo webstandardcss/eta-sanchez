@@ -5,7 +5,7 @@
     <ul class="practice-menu">
         <li><a href="Personal-Injury.php">Personal Injury</a></li>
         <li class="sub"><a href="Motor-Vehicle-Accidents.php">Motor Vehicle Accidents</a></li>
-        <li class="sub"><a href="Workplace-Injuries.php">Workplace Injuries</a></li>
+        <li class="sub"><a href="Workplace-Injuries.php">Workplace Injuries</a></li>				<li class="sub"><a href="Product-defects.php">Product Defects</a></li>
         <li><a href="Immigration.php">Immigration</a></li>
         <li><a href="Business-Litigation.php">Business Litigation</a></li>
         <?php if(0){/*

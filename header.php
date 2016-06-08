@@ -24,6 +24,16 @@
      player.api_play();
    });
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74143423-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 <title><?php echo $title; ?></title>
 </head>
@@ -47,10 +57,10 @@
         </article>
         
         <article class="phone col-sm-3">
-            <a href="tel:903-758-8700">903-758-8700</a>
+            <a href="tel:903-758-8700">903-758-8700</a>			<a href="tel:1-866-726-2439">1-866-SANCHEZ</a>
         </article>
         <article class="language col-sm-1 col-xs-12">
-            <a href="#"><center>En Espanol</center></a>
+            <a href="http://miabogadosanchez.com/"><center>En Espanol</center></a>
         </article>
         
         <div class="clearfix"></div>

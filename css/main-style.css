@@ -39,8 +39,8 @@ header {
 .phone a {
 	font-family: "Times New Roman", Times, serif;
 	color: #fff;
-	font-size: 26px;
-	margin-top: 10px;
+	font-size: 24px;
+	margin-top: 6px;
 	float: right;
 	text-decoration: none;
 }
@@ -117,13 +117,13 @@ header {
 
 /* Banner Styles Starts */
 .carousel-inner {
-	height: 350px;
+	height: 300px;
 	overflow: hidden;
 	background: #000;
 }
 
 .item img {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	float: left;
 }
@@ -159,8 +159,8 @@ header {
 }
 
 .carousel-control.left {
-	left: calc(100% - 47px);
-	top: calc(40% + 50px);
+	/* left: calc(100% - 47px);
+	top: calc(40% + 50px); */
 }
 /* Banner Styles Ends */
 

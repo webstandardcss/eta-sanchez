@@ -16,23 +16,12 @@
     <article class="col-sm-6">
     	<p><a href="http://www.news-journal.com/charm/article_af0a1296-3ec3-11e0-8d02-001cc4c03286.html"><strong>Jose in CHARM Magazine</strong></a></p>
     	
-    	<p><a href="pdf/Longview-News-Journal-Jose-Sanchez_1.pdf" target="_blank"><strong>Family Battles Reality of Immigration Debate</strong></a>
-    	<br />Longview news-Journal, June 28, 2009</p>
-    	<img src="images/ContentHandler2.jpg" alt="Longview news-Journal" class="img-responsive" />
-    	<br /><br /><br /><br />
-    	
-    	<p><a href="pdf/NY-Times-Jose-Sanchez_1.pdf" target="_blank"><strong>For Immigrants and Business, Rift on Protests</strong></a><br />
-    	New York Times, April 15, 2006</p>
-    	<img src="images/ContentHandler3.jpg" alt="New York Times" class="img-responsive" />
-    	<br /><br /><br /><br />
-    	
-    	
     	<p><a href="Jose-and-famous-ppl.php"><strong>The People Jose Meets</strong></a></p>
     	
     	<p><a href="Secretary-Napolitano-Announces-Deferred-Action-Process-for-Young-People-Who-Are-Low-Enforcement-Priorities.php"><strong>Secretary Napolitano Announces Deferred Action Process for Young People Who Are Low Enforcement Priorities</strong></a></p>
     	
     	<p>Jose Sanchez: From Illegal to Leader</p>
-    	<img src="images/ContentHandler4.jpg" alt="Magazine" class="img-responsive" />
+    	<img src="images/ContentHandler4.jpg" alt="Magazine" class="img-responsive" />				<br /><br /><br />				<h4><strong>Immigration March Tyler TX</strong></h4>				<br />				<p> In 2006 Jose Sanchez led more than 2,000 people in a peaceful march to ask congress to take action on immigration reform</p>				<br /><br />				<iframe width="640" height="360" src="https://www.youtube.com/embed/AO1Q7pJ2U0Q" frameborder="0" allowfullscreen></iframe>		
     </article>
     
     
@@ -53,8 +42,7 @@
     	</ul>
     	<p>Video of <a href="Immigration-March-and-Debate-with-Leo-Berman.php">Immigration March and Debate 2006 with Leo Berman</a></p>
         <br /><br /><br />
-        <p>You can purchases a rechargable calling card at our office or La Michoacana</p>
-    	<img src="images/ContentHandler5.jpg" alt="Magazine" class="img-responsive" />
+        
     </article>
     <div class="clearfix"></div>
     <br /><br />

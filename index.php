@@ -35,11 +35,15 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img src="images/slide1.jpg" alt="Attorney Sanchez" />
+                    <a href="http://www.attorneysanchez.com/Jose-Sanchez.php"><img src="images/slide_2.jpg" alt="Attorney Sanchez" /></a>
                     <div class="carousel-caption">
                     </div>
                 </div>
-        
+				<div class="item">
+                    <a href="http://en.calameo.com/read/00052319002023971c31e"><img src="images/Banner slides_3.jpg" alt="Attorney Sanchez" /></a>
+                    <div class="carousel-caption">
+                    </div>
+                </div>
             </div>
         
             <!-- Left and right controls -->
@@ -55,7 +59,7 @@
     </article>
 	
     <article class="videos">
-    	<h2>Youtube Videos</h2>
+    	<h2>Youtube Videos</h2>		<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLpoW6bbdEPDA8Z_n1bA2l7qTFN-noXQfw" frameborder="0" allowfullscreen></iframe>				<h2>Radio Programs</h2>				<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/152557324&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>		
     </article>
     
 <!-- Slider Ends -->
@@ -66,7 +70,7 @@
 
 	<article class="newsletter bluebox">
     	<h3>Sign up for our newsletter</h3>
-        <p class="small">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
+        <p class="small">Please fill the fields below if you would like to stay up to date with our newsletter. </p>
         
         <form action="#">
         	<ul>
@@ -90,7 +94,7 @@
         </a>
         <a href="https://www.facebook.com/#!/pages/Jose-Sanchez-Law-Firm-PC/157425859156?v=info" target="_blank" class="social-link">
         	<span class="icon square"><i class="fa fa-facebook"></i></span>
-            Find us on Facebook
+            Like us on Facebook
         </a>
         <div class="clearfix"></div>
     </article>
@@ -127,8 +131,8 @@
         
         <div class="each-post">
         	<img src="images/blogimg.png" class="border-img" alt="" />
-            <p><strong>Detail of the blog post here. It could be of several words.</strong></p>
-            <a href="#" class="btn btn-info btn-grey">View Testimonial</a>
+            <p><strong>Rocio M. Ramos: After experiencing the agony of receiving an order of deportation... </strong></p>
+            <a href="testimony-rocio-ramos.php" class="btn btn-info btn-grey">View Testimonial</a>
             <div class="clearfix"></div>
         </div>
         

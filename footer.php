@@ -10,9 +10,26 @@
 <!-- Footer Starts -->
 
 	<article class="each-section col-sm-4 text-center">
-    	<h4>Jose Sanchez’ Law Firm Office</h4>
+    	<h4>Jose Sanchez Law Firm Office</h4>
+		<table style="width:100%">
+  <tr>
+    <td style="width:150px">
+		<p><strong> Longview Office</strong> </p>
         <p>507 N Green St Longview TX, 75601<br />
-			903-758-8700 or Toll Free 1-866-SANCHEZ</p>
+			903-758-8700 or <br />
+			Toll Free 1-866-SANCHEZ</p>
+	</td>
+    <td>
+			<p><strong>Dallas Office</strong><p>
+<p>2911 Turtle Creek Blvd<br />
+Suite 1400<br />
+Dallas TX, 75219<br />
+Toll Free: 888-709-9023<br />
+Fax: 903-758-8712<br /></p>
+		</td>
+	</tr>
+	</table>
+			<img src="images/MemberLogo2015_HighRes_s.png" class="" alt="2015 Member American Immigration Lawyers Association" background color="white"height="110" width="110" align="left" >  			
     </article>
 
 	<article class="each-section col-sm-4 border">

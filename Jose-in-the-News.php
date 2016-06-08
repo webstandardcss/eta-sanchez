@@ -14,17 +14,25 @@
     <!-- Row Starts -->
     
     <article class="col-sm-6">
-    	<p><a href="http://www.news-journal.com/charm/article_af0a1296-3ec3-11e0-8d02-001cc4c03286.html"><strong>Jose in CHARM Magazine</strong></a></p>
-    	
+	
+		<img src="images/Univision_Noticias_logo.jpg" class="img-responsive"/>
+		<h4> La Convenci&oacute;n Nacional Dem&oacute;crata pone el ojo sobre los hispanos </h4>
+		<p> <a href="http://www.univision.com/noticias/elecciones-2016/la-convencion-nacional-democrata-pone-el-ojo-sobre-los-hispanos" target="_blank"> Jos&eacute; S&aacute;nchez quiere ser uno de 147 delegados texanos que representar&aacute;n a Hillary Clinton en la Convenci&oacute;n Nacional Dem&oacute;crata...</a></p>
+		
+		
+		<h4><a href="http://en.calameo.com/read/00052319002023971c31e" target="_blank"> Vita Latina Magazine </a></h4>
+		<p><strong> Jose on the Cover of Vita Latina Magazine</strong></p>
+		<a href="http://en.calameo.com/read/00052319002023971c31e" target="_blank"><img src="images/vita_logo_esmi_large.jpg" class="img-responsive" /></a>
+      	
     	<p><a href="pdf/Longview-News-Journal-Jose-Sanchez_1.pdf" target="_blank"><strong>Family Battles Reality of Immigration Debate</strong></a>
     	<br />Longview news-Journal, June 28, 2009</p>
     	<img src="images/ContentHandler2.jpg" alt="Longview news-Journal" class="img-responsive" />
-    	<br /><br /><br /><br />
+    	<br /><br />
     	
     	<p><a href="pdf/NY-Times-Jose-Sanchez_1.pdf" target="_blank"><strong>For Immigrants and Business, Rift on Protests</strong></a><br />
     	New York Times, April 15, 2006</p>
     	<img src="images/ContentHandler3.jpg" alt="New York Times" class="img-responsive" />
-    	<br /><br /><br /><br />
+    	<br /><br />
     	
     	
     	<p><a href="Jose-and-famous-ppl.php"><strong>The People Jose Meets</strong></a></p>
@@ -53,8 +61,7 @@
     	</ul>
     	<p>Video of <a href="Immigration-March-and-Debate-with-Leo-Berman.php">Immigration March and Debate 2006 with Leo Berman</a></p>
         <br /><br /><br />
-        <p>You can purchases a rechargable calling card at our office or La Michoacana</p>
-    	<img src="images/ContentHandler5.jpg" alt="Magazine" class="img-responsive" />
+       
     </article>
     <div class="clearfix"></div>
     <br /><br />
