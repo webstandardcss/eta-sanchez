@@ -1,0 +1,3 @@
+<?php get_header(); ?>   
+<section class="contents col-sm-8"><!-- Contents Starts -->    <h1>News</h1>	<?php while ( have_posts() ) : the_post(); ?>		<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>		<?php the_exerpt(); ?>	<?php endwhile; ?>  <!-- Contents Ends --></section><aside class="col-sm-4"><!-- Aside Starts -->	<br />		<br />	    <?php get_sidebar(); ?> <!-- Aside Ends --></aside>
+<?php get_footer(); ?>
