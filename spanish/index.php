@@ -98,10 +98,59 @@
         </a>
         <div class="clearfix"></div>
     </article>
-    
+    <script type="text/javascript">
+    function randomnum()
+    {
+	    var number1 = 5;
+	    var number2 = 50;
+	    var randomnum = (parseInt(number2) - parseInt(number1)) + 1;
+	    var rand1 = Math.floor(Math.random()*randomnum)+parseInt(number1);
+	    var rand2 = Math.floor(Math.random()*randomnum)+parseInt(number1);
+	    $(".rand1").html(rand1);
+	    $(".rand2").html(rand2);
+    }
+    	$(document).ready(function(e) {	
+    		randomnum();		
+			$("#contact_form").submit(function(){
+				var total=parseInt($('.rand1').html())+parseInt($('.rand2').html());
+				var total1=$('#cap').val();
+				if(total!=total1)
+				{
+					alert("Wrong sum Entered");
+					randomnum();
+					return false;
+				}
+				
+				$('#loader').show();
+				var data = {
+					"action": "test"
+				};
+				data = $(this).serialize() + "&" + $.param(data);
+				$.ajax({
+					type: "POST",
+					dataType: "json",
+					url: "send2.php", 
+					data: data,
+					success: function(data) {
+						$('#loader').hide();
+						$(".return").html(
+							data["json"]
+						);
+					},
+					error: function(){
+						$('#loader').hide();
+						$('.return').html('<div class="alert alert-warning"><strong>Something went wrong!</strong></div>');
+					}
+				});
+				return false;
+			});
+        });
+
+    </script>
+    <div class="return"></div>
     <article class="contact-box">
     	<h3><a href="#">Como te podemos ayudar?</a></h3>
-        <form action="#">
+        <form action="#" id="contact_form">
         	<ul>
         		<li>
                 	Nombre <span>*</span>
@@ -118,6 +167,10 @@
         		<li>
                 	Una descripci&oacute;n breve de tu problema legal 
                     <textarea name="Message" class="form-control" id="" cols="30" rows="5"></textarea>
+                </li>
+                <li>
+                	<span class="rand1"></span> +
+                	<span class="rand2"></span> = <input type="text" id="cap" name="cap" class="form-control" required />
                 </li>
                 <li>
                 	<input type="submit" value="Send" class="btn btn-info" />

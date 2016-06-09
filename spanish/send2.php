@@ -16,19 +16,14 @@
 	function sendemail(){
 		$return = $_POST;  
 		
-				$to = "jose@attorneysanchez.com, luis@rkvideo.tv, webstandardcss@gmail.com";
-		$from = $_REQUEST['Email']; 
-		$name = $_REQUEST['Name'];  
+		
+		$to = "jose@attorneysanchez.com, luis@rkvideo.tv, webstandardcss@gmail.com"; 
+		$from = $_REQUEST['email']; 
+		$name = $_REQUEST['name'];  
 		$headers = "From: $from"; 
 		$subject = "You have a message sent from Attorney Sanchez Website"; 
 	
-		$fields = array(); 
-		$fields{"Name"} = "Name"; 
-		$fields{"Province"} = "Province"; 
-		$fields{"Zip"} = "Zip"; 
-		$fields{"Phone"} = "Phone"; 
-		$fields{"replyEmail"} = "replyEmail";
-		$fields{"replyPhone"} = "replyPhone";
+		$fields = array(); 		$fields{"name"} = "Name";		$fields{"phone"} = "Phone"; 
 		$fields{"Message"} = "Message";
 	
 		$body = "Details:\n\n";

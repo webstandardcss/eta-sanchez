@@ -99,8 +99,28 @@
         <div class="clearfix"></div>
     </article>
     <script type="text/javascript">
-    	$(document).ready(function(e) {			
+    function randomnum()
+    {
+	    var number1 = 5;
+	    var number2 = 50;
+	    var randomnum = (parseInt(number2) - parseInt(number1)) + 1;
+	    var rand1 = Math.floor(Math.random()*randomnum)+parseInt(number1);
+	    var rand2 = Math.floor(Math.random()*randomnum)+parseInt(number1);
+	    $(".rand1").html(rand1);
+	    $(".rand2").html(rand2);
+    }
+    	$(document).ready(function(e) {	
+    		randomnum();		
 			$("#contact_form").submit(function(){
+				var total=parseInt($('.rand1').html())+parseInt($('.rand2').html());
+				var total1=$('#cap').val();
+				if(total!=total1)
+				{
+					alert("Wrong sum Entered");
+					randomnum();
+					return false;
+				}
+				
 				$('#loader').show();
 				var data = {
 					"action": "test"
@@ -147,6 +167,10 @@
         		<li>
                 	Brief description of your legal issue 
                     <textarea name="Message" class="form-control" id="" cols="30" rows="5"></textarea>
+                </li>
+                <li>
+                	<span class="rand1"></span> +
+                	<span class="rand2"></span> = <input type="text" id="cap" name="cap" class="form-control" required />
                 </li>
                 <li>
                 	<input type="submit" value="Send" class="btn btn-info" />

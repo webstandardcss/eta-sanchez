@@ -1,4 +1,58 @@
 <?php	$title = "Contact Us"; 	include_once('header.php'); 	include_once('header_bottom.php'); ?>
+    <script type="text/javascript">
+
+    	$(document).ready(function(e) {			
+
+			$("#contact_form").submit(function(){
+
+				$('#loader').show();
+
+				var data = {
+
+					"action": "test"
+
+				};
+
+				data = $(this).serialize() + "&" + $.param(data);
+
+				$.ajax({
+
+					type: "POST",
+
+					dataType: "json",
+
+					url: "send.php", 
+
+					data: data,
+
+					success: function(data) {
+
+						$('#loader').hide();
+						$(".return").html(
+
+							data["json"]
+
+						);
+
+					},
+
+					error: function(){
+
+						$('#loader').hide();
+
+						$('.return').html('<div class="alert alert-warning"><strong>Something went wrong!</strong></div>');
+
+					}
+
+				});
+
+				return false;
+
+			});
+
+        });
+
+    </script>
 <section class="contents col-sm-8 pull-right">
    <!-- Contents Starts --><br />	
    <div class="return"></div>
