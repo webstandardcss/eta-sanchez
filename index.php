@@ -159,31 +159,17 @@ require('news/wp-blog-header.php');
 <?php
 $posts = get_posts('numberposts=3&order=ASC&orderby=post_title');
 foreach ($posts as $post) : setup_postdata( $post ); ?>
-<?php the_date(); echo "<br />"; ?>
-<?php the_title(); ?>    
-<?php the_excerpt(); ?> 
+        <div class="each-post">
+        	<img src="images/blogimg.png" class="border-img" alt="" />
+		<small><?php the_date(); echo "<br />"; ?></small>
+		<h4><?php the_title(); ?></h4>    
+		<p class="small"><?php the_excerpt(); ?></p> 
+		<div class="clearfix"></div>
+	</div>
 <?php
 endforeach;
 ?>
 
-        <div class="each-post">
-        	<img src="images/blogimg.png" class="border-img" alt="" />
-            <h4>Best Lawyer</h4>
-            <p class="small">Detail of the blog post here. It could be of several words.</p>
-            <div class="clearfix"></div>
-        </div>
-        <div class="each-post">
-        	<img src="images/blogimg.png" class="border-img" alt="" />
-            <h4>Best Lawyer</h4>
-            <p class="small">Detail of the blog post here. It could be of several words.</p>
-            <div class="clearfix"></div>
-        </div>
-        <div class="each-post">
-        	<img src="images/blogimg.png" class="border-img" alt="" />
-            <h4>Best Lawyer</h4>
-            <p class="small">Detail of the blog post here. It could be of several words.</p>
-            <div class="clearfix"></div>
-        </div>
     
     <!-- Each Social Box Ends -->
     </article>
