@@ -35,11 +35,15 @@
                     </div>
                 </div>
                 <div class="item">
-                    <a href="http://www.attorneysanchez.com/Jose-Sanchez.php"><img src="images/slide_2.jpg" alt="Attorney Sanchez" /></a>
+                    <a href="http://www.attorneysanchez.com/Jose-Sanchez.php"><img src="images/slide_2.jpg" alt="Attorney Sanchez"  /></a>
                     <div class="carousel-caption">
                     </div>
                 </div>
-        
+				<div class="item">
+                    <a href="http://en.calameo.com/read/00052319002023971c31e"><img src="images/Banner slides_4.jpg" alt="Attorney Sanchez" target="_blank"/></a>
+                    <div class="carousel-caption">
+                    </div>
+                </div>
             </div>
         
             <!-- Left and right controls -->

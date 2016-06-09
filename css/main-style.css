@@ -39,10 +39,11 @@ header {
 .phone a {
 	font-family: "Times New Roman", Times, serif;
 	color: #fff;
-	font-size: 24px;
+	font-size: 19px;
 	margin-top: 6px;
 	float: right;
 	text-decoration: none;
+	margin-right: 10px;
 }
 
 .banner {
