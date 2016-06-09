@@ -98,10 +98,39 @@
         </a>
         <div class="clearfix"></div>
     </article>
-    
+    <script type="text/javascript">
+    	$(document).ready(function(e) {			
+			$("#contact_form").submit(function(){
+				$('#loader').show();
+				var data = {
+					"action": "test"
+				};
+				data = $(this).serialize() + "&" + $.param(data);
+				$.ajax({
+					type: "POST",
+					dataType: "json",
+					url: "send2.php", 
+					data: data,
+					success: function(data) {
+						$('#loader').hide();
+						$(".return").html(
+							data["json"]
+						);
+					},
+					error: function(){
+						$('#loader').hide();
+						$('.return').html('<div class="alert alert-warning"><strong>Something went wrong!</strong></div>');
+					}
+				});
+				return false;
+			});
+        });
+
+    </script>
+    <div class="return"></div>
     <article class="contact-box">
     	<h3><a href="#">How can we help you?</a></h3>
-        <form action="#">
+        <form id="contact_form" action="#">
         	<ul>
         		<li>
                 	Name <span>*</span>

@@ -32,7 +32,7 @@
 					dataType: "json",
 					url: "send.php", 
 					data: data,
-					success: function(data) {
+					success: function(data) {						$('#loader').hide();
 						$(".return").html(
 							data["json"]
 						);
