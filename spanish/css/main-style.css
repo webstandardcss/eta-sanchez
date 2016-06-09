@@ -159,8 +159,8 @@ header {
 }
 
 .carousel-control.left {
-	left: calc(100% - 47px);
-	top: calc(40% + 50px);
+/*	left: calc(100% - 47px);
+	top: calc(40% + 50px); */
 }
 /* Banner Styles Ends */
 
