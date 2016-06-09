@@ -151,6 +151,21 @@
     <!-- Each Social Box Starts -->
     
     	<h5 class="heading-bg"><a href="#">Recent Posts - Blog</a></h5>
+
+<?php
+require('news/wp-blog-header.php');
+?>
+
+<?php
+$posts = get_posts('numberposts=3&order=ASC&orderby=post_title');
+foreach ($posts as $post) : setup_postdata( $post ); ?>
+<?php the_date(); echo "<br />"; ?>
+<?php the_title(); ?>    
+<?php the_excerpt(); ?> 
+<?php
+endforeach;
+?>
+
         <div class="each-post">
         	<img src="images/blogimg.png" class="border-img" alt="" />
             <h4>Best Lawyer</h4>
