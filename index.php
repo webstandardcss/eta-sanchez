@@ -150,7 +150,7 @@
 	<article class="each-social col-sm-4">
     <!-- Each Social Box Starts -->
     
-    	<h5 class="heading-bg"><a href="#">Recent Posts - Blog</a></h5>
+    	<h5 class="heading-bg"><a href="http://attorneysanchez.com/news/">Recent Posts - Blog</a></h5>
 
 <?php
 require('news/wp-blog-header.php');
