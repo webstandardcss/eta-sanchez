@@ -56,6 +56,7 @@
 
 					success: function(data) {
 
+						$('#loader').hide();
 						$(".return").html(
 
 							data["json"]

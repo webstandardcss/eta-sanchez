@@ -68,26 +68,32 @@
 <section class="sidebar col-sm-4">
 <!-- Sidebar Starts -->
 
+	    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_95b8f671fd152cc59d6020983_ac68cf5c49" tabindex="-1" value=""></div>
+    
 	<article class="newsletter bluebox">
     	<h3>Sign up for our newsletter</h3>
         <p class="small">Please fill the fields below if you would like to stay up to date with our newsletter. </p>
-        
-        <form action="#">
+        <div id="mce-responses" class="clear">
+		<div class="alert alert-danger response" id="mce-error-response" style="display:none"></div>
+		<div class="alert alert-success response" id="mce-success-response" style="display:none"></div>
+	</div>
+        <form action="//execdesks.us11.list-manage.com/subscribe/post?u=95b8f671fd152cc59d6020983&amp;id=ac68cf5c49" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         	<ul>
         		<li>
         			Name <span>*</span>
-        			<input type="text" name="name" class="form-control" placeholder="Name" required />
+        			<input type="text" value="" class="form-control" placeholder="Name" required name="FNAME" id="mce-FNAME">
         		</li>
                 <li>
                 	Email <span>*</span>
-                    <input type="email" name="email" class="form-control" placeholder="Email" required />
+                    <input type="email" value="" placeholder="Email" name="EMAIL" class="form-control required email" id="mce-EMAIL">
                 </li>
                 <li>
-                	<input type="submit" value="Subscribe" class="btn btn-info" />
+                	<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-info">
                 </li>
         	</ul>
         </form>
-        
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
         <a href="https://twitter.com/josesanchezlaw" target="_blank" class="social-link">
         	<span class="icon square"><i class="fa fa-twitter"></i></span>
             Follow Us on Twitter
