@@ -12,8 +12,9 @@
 	<article class="each-section col-sm-4 text-center">
     	<h4>Jose S&aacute;nchez' Law Firm Office</h4>
         <p>507 N Green St Longview TX, 75601<br />
-			903-758-8700 o LLame gratis al 1-866-SANCHEZ</p>		
-		<img source="images/MemberLogo2015_HighRes_s.png" class="pull-left" alt="2015 Member American Immigration Lawyers Association" height="90" width="90" align="left">  			
+			903-758-8700 o LLame gratis al 1-866-SANCHEZ</p>	
+			<br />	
+		<img style="background: #fff;" src="<?= $baseurl; ?>images/MemberLogo2015_HighRes_s.png" class="pull-left" alt="2015 Member American Immigration Lawyers Association" height="90" width="90" align="left">  			
     </article>
 
 	<article class="each-section col-sm-4 border">
@@ -30,7 +31,7 @@
 	<article class="each-section col-sm-4">
     	<h4>Obten nuestro bolet&iacute;n.</h4>
 		<p class="small">Informaci&oacute;n sobre inmigraci&oacute;n, noticias, leyes, nuevos recursos, etc.</p>
-		<a href="#" class="btn btn-danger">Haz clic aqu&iacute; para subscribirte</a>
+		<a href="index.php" class="btn btn-danger">Haz clic aqu&iacute; para subscribirte</a>
     </article>
     <div class="clearfix"></div>
 

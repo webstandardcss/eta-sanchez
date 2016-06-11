@@ -20,7 +20,7 @@
 		$from = $_REQUEST['Email']; 
 		$name = $_REQUEST['Name'];  
 		$headers = "From: $from"; 
-		$subject = "You have a message sent from Attorney Sanchez Website"; 
+		$subject = "You have a message sent from Attorney Sanchez Website - Spanish Contact Page Form"; 
 	
 		$fields = array(); 
 		$fields{"Name"} = "Name"; 

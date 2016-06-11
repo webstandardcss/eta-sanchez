@@ -116,7 +116,7 @@
 <aside class="col-sm-4 hide">
 <!-- Aside Starts -->
 	<br />
-	<img src="images/i-default.jpg" alt="Practice Areas" class="img-responsive left-img" />
+	<img src="<?= $baseurl; ?>images/i-default.jpg" alt="Practice Areas" class="img-responsive left-img" />
 	<br />
 	
     <?php include_once('sidebar.php'); ?> 

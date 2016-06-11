@@ -16,7 +16,7 @@
 <aside class="col-sm-4">
 <!-- Aside Starts -->
 	<br />
-	<img src="images/auto.jpg" alt="Motor Vehicle Accidents" class="img-responsive left-img" />
+	<img src="<?= $baseurl; ?>images/auto.jpg" alt="Motor Vehicle Accidents" class="img-responsive left-img" />
 	<br />
 	
     <?php include_once('sidebar.php'); ?> 

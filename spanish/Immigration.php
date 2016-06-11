@@ -39,7 +39,7 @@
 <aside class="col-sm-4">
 <!-- Aside Starts -->
 	<br />
-	<img src="images/passport.jpg" alt="Immigration" class="img-responsive left-img" />
+	<img src="<?= $baseurl; ?>images/passport.jpg" alt="Immigration" class="img-responsive left-img" />
 	<br />
 	<object height="81" width="100%" id="yourPlayerId" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
   <param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fmatas%2Fhobnotropic&enable_api=true&object_id=yourPlayerId"></param>

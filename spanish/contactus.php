@@ -107,6 +107,6 @@
    <!-- Contents Ends -->
 </section>
 <aside class="col-sm-4 pull-left">
-   <!-- Aside Starts -->	<br />	<img src="images/i-default.jpg" alt="Contact Us" class="img-responsive left-img" />	<br />	    <?php include_once('sidebar.php'); ?> <!-- Aside Ends -->
+   <!-- Aside Starts -->	<br />	<img src="<?= $baseurl; ?>images/i-default.jpg" alt="Contact Us" class="img-responsive left-img" />	<br />	    <?php include_once('sidebar.php'); ?> <!-- Aside Ends -->
 </aside>
 <?php include_once('footer.php'); ?>

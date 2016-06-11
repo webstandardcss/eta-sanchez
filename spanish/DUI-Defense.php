@@ -35,7 +35,7 @@
 <aside class="col-sm-4">
 <!-- Aside Starts -->
 	<br />
-	<img src="images/beer.jpg" alt="DUI Defense" class="img-responsive left-img" />
+	<img src="<?= $baseurl; ?>images/beer.jpg" alt="DUI Defense" class="img-responsive left-img" />
 	<br />
 	
     <?php include_once('sidebar.php'); ?> 

@@ -13,7 +13,7 @@
    
    <p>Usted puede aprender m&aacute;s acerca de nuestra experiencia visitando el enlace a los perfiles de los abogados y directorio de equipo de apoyo legal m&aacute;s abajo:</p>
    
-   <a href="Jose-Sanchez.php" class="pull-left" style="margin-right: 20px;"><img src="images/ContentHandler.jpg" alt="Jose Sanchez" /></a>
+   <a href="Jose-Sanchez.php" class="pull-left" style="margin-right: 20px;"><img src="<?= $baseurl; ?>images/ContentHandler.jpg" alt="Jose Sanchez" /></a>
    
    <p><a href="http://miabogadosanchez.com/Jose-Sanchez.php">Jose S&aacute;nchez</a></p>
    
@@ -66,7 +66,7 @@
 <aside class="col-sm-4 pull-left">
 <!-- Aside Starts -->
 	<br />
-	<img src="images/i-attorneyprofile.jpg" alt="Firm Overview" class="img-responsive left-img" />
+	<img src="<?= $baseurl; ?>images/i-attorneyprofile.jpg" alt="Firm Overview" class="img-responsive left-img" />
 	<br />
 	
     <?php include_once('sidebar.php'); ?> 

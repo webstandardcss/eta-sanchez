@@ -1,4 +1,58 @@
 <?php	$title = "Testimonio - Abogado Jose Sanchez"; 	include_once('header.php'); 	include_once('header_bottom.php'); ?>
+    <script type="text/javascript">
+
+    	$(document).ready(function(e) {			
+
+			$("#contact_form").submit(function(){
+
+				$('#loader').show();
+
+				var data = {
+
+					"action": "test"
+
+				};
+
+				data = $(this).serialize() + "&" + $.param(data);
+
+				$.ajax({
+
+					type: "POST",
+
+					dataType: "json",
+
+					url: "send.php", 
+
+					data: data,
+
+					success: function(data) {
+
+						$('#loader').hide();
+						$(".return").html(
+
+							data["json"]
+
+						);
+
+					},
+
+					error: function(){
+
+						$('#loader').hide();
+
+						$('.return').html('<div class="alert alert-warning"><strong>Something went wrong!</strong></div>');
+
+					}
+
+				});
+
+				return false;
+
+			});
+
+        });
+
+    </script>
 <section class="contents col-sm-8 pull-right">
    <!-- Contents Starts --><br />	
    <div class="return"></div>
@@ -63,6 +117,6 @@ Le agradezco sinceramente el tiempo y el esfuerzo que puso en mi caso.</p>
    <!-- Contents Ends -->
 </section>
 <aside class="col-sm-4 pull-left">
-   <!-- Aside Starts -->	<br />	<img src="images/i-default.jpg" alt="Contact Us" class="img-responsive left-img" />	<br />	    <?php include_once('sidebar.php'); ?> <!-- Aside Ends -->
+   <!-- Aside Starts -->	<br />	<img src="<?= $baseurl; ?>images/i-default.jpg" alt="Contact Us" class="img-responsive left-img" />	<br />	    <?php include_once('sidebar.php'); ?> <!-- Aside Ends -->
 </aside>
 <?php include_once('footer.php'); ?>

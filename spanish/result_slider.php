@@ -3,7 +3,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="images/slider1.jpg" alt="Chania">
+      <img src="<?= $baseurl; ?>images/slider1.jpg" alt="Chania">
 	  <div class="slider-contents">
 		NOTABLE RESULTS
 		<h2>It Weighs Less Than A Nickel</h2>
@@ -12,7 +12,7 @@
     </div>
 
     <div class="item">
-      <img src="images/slider2.jpg" alt="Chania">
+      <img src="<?= $baseurl; ?>images/slider2.jpg" alt="Chania">
 	  <div class="slider-contents">
 		NOTABLE RESULTS
 		<h2>It Weighs Less Than A Nickel</h2>
@@ -21,7 +21,7 @@
     </div>
 
     <div class="item">
-      <img src="images/slider3.jpg" alt="Flower">
+      <img src="<?= $baseurl; ?>images/slider3.jpg" alt="Flower">
 	  <div class="slider-contents">
 		NOTABLE RESULTS
 		<h2>It Weighs Less Than A Nickel</h2>

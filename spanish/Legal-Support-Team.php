@@ -17,7 +17,7 @@
 <aside class="col-sm-4 pull-left">
 <!-- Aside Starts -->
 	<br />
-	<img src="images/i-attorneyprofile.jpg" alt="Firm Overview" class="img-responsive left-img" />
+	<img src="<?= $baseurl; ?>images/i-attorneyprofile.jpg" alt="Firm Overview" class="img-responsive left-img" />
 	<br />
 	
     <?php include_once('sidebar.php'); ?> 

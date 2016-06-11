@@ -30,17 +30,17 @@
             <div class="carousel-inner" role="listbox">        
             
                 <div class="item active">
-                    <img src="images/slide1.jpg" alt="Attorney Sanchez" />
+                    <img src="<?= $baseurl; ?>images/slide1.jpg" alt="Attorney Sanchez" />
                     <div class="carousel-caption">
                     </div>
                 </div>
                 <div class="item">
-                    <a href="http://www.attorneysanchez.com/Jose-Sanchez.php"><img src="images/slide_2.jpg" alt="Attorney Sanchez"  /></a>
+                    <a href="http://www.attorneysanchez.com/Jose-Sanchez.php"><img src="<?= $baseurl; ?>images/slide_2.jpg" alt="Attorney Sanchez"  /></a>
                     <div class="carousel-caption">
                     </div>
                 </div>
 				<div class="item">
-                    <a href="http://en.calameo.com/read/00052319002023971c31e"><img src="images/Banner slides_4.jpg" alt="Attorney Sanchez" target="_blank"/></a>
+                    <a href="http://en.calameo.com/read/00052319002023971c31e"><img src="<?= $baseurl; ?>images/Banner slides_3.jpg" alt="Attorney Sanchez" target="_blank"/></a>
                     <div class="carousel-caption">
                     </div>
                 </div>
@@ -59,7 +59,7 @@
     </article>
 	
     <article class="videos">
-    	<h2>Videos de YouTube</h2>		<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLpoW6bbdEPDA8Z_n1bA2l7qTFN-noXQfw" frameborder="0" allowfullscreen></iframe>				<h2>Programas de Radio</h2>				<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/152557324&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>		
+    	<h2>Videos de YouTube</h2>		<iframe width="100%" height="360" src="https://www.youtube.com/embed/videoseries?list=PLpoW6bbdEPDA8Z_n1bA2l7qTFN-noXQfw" frameborder="0" allowfullscreen></iframe>				<h2>Programas de Radio</h2>				<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/152557324&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>		
     </article>
     
 <!-- Slider Ends -->
@@ -71,22 +71,29 @@
 	<article class="newsletter bluebox">
     	<h3>Subscribete a nuestro bolet&iacute;n de noticias </h3>
  <p class="small">Por favor, rellene los campos abajo si le gustar&iacute;a estar al d&iacute;a con nuestro bolet&iacute;n de noticias. </p>
-        
-        <form action="#">
+            
+        <div id="mce-responses" class="clear">
+		<div class="alert alert-danger response" id="mce-error-response" style="display:none"></div>
+		<div class="alert alert-success response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_95b8f671fd152cc59d6020983_ac68cf5c49" tabindex="-1" value=""></div>
+
+        <form action="//execdesks.us11.list-manage.com/subscribe/post?u=95b8f671fd152cc59d6020983&amp;id=ac68cf5c49" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         	<ul>
         		<li>
         			Nombre <span>*</span>
-        			<input type="text" name="name" class="form-control" placeholder="Name" required />
+        			<input type="text" value="" class="form-control" placeholder="Name" required name="FNAME" id="mce-FNAME">
         		</li>
                 <li>
-                	Correo electr&oacute;nico <span>*</span>
-                    <input type="email" name="email" class="form-control" placeholder="Email" required />
+                	Correo electr&oacute;nico  <span>*</span>
+                    <input type="email" value="" placeholder="Email" name="EMAIL" class="form-control required email" id="mce-EMAIL">
                 </li>
                 <li>
-                	<input type="submit" value="Subscribete" class="btn btn-info" />
+                	<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-info">
                 </li>
         	</ul>
         </form>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
         
         <a href="https://twitter.com/josesanchezlaw" target="_blank" class="social-link">
         	<span class="icon square"><i class="fa fa-twitter"></i></span>
@@ -183,7 +190,7 @@
     	<h3>Testimonios</h3>
         
         <div class="each-post">
-        	<img src="images/blogimg.png" class="border-img" alt="" />
+        	<img src="<?= $baseurl; ?>images/blogimg.png" class="border-img" alt="" />
             <p><strong>Rocio: Despu&eacute;s de una larga agon&iacute;a que pas&eacute; al recibir una orden de deportaci&oacute;n... </strong></p>
             <a href="testimonio-rocio-ramos.php" class="btn btn-info btn-grey">Ver Testimonio completo</a>
             <div class="clearfix"></div>
@@ -213,7 +220,7 @@ require('../news/wp-blog-header.php');
 $posts = get_posts('numberposts=3&order=ASC&orderby=post_title');
 foreach ($posts as $post) : setup_postdata( $post ); ?>
         <div class="each-post">
-                <img src="images/blogimg.png" class="border-img" alt="" />
+                <img src="<?= $baseurl; ?>images/blogimg.png" class="border-img" alt="" />
                 <small><?php the_date(); echo "<br />"; ?></small>
                 <h4><?php the_title(); ?></h4>
                 <p class="small"><?php the_excerpt(); ?></p>

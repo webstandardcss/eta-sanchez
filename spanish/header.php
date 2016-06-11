@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<?php $baseurl = "http://attorneysanchez.com/"; ?>
 <!-- meta http-equiv="Content-Type" content="text/html; charset=utf-8" /-->
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta charset="ISO-8859-1" />
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
 <link rel="stylesheet" href="css/bootstrap.css" />
-<link rel="stylesheet" href="css/bootstrap-theme.css" />
-<link rel="stylesheet" href="css/main-style.css" />
-<link rel="stylesheet" href="css/media.css" />
+<link rel="stylesheet" href="<?= $baseurl; ?>css/bootstrap-theme.css" />
+<link rel="stylesheet" href="<?= $baseurl; ?>css/main-style.css" />
+<link rel="stylesheet" href="<?= $baseurl; ?>css/media.css" />
 
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/npm.js"></script>
-<script type="text/javascript" src="scripts/soundcloud.player.api.js"></script>
+<script type="text/javascript" src="<?= $baseurl; ?>js/jquery.js"></script>
+<script type="text/javascript" src="<?= $baseurl; ?>js/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?= $baseurl; ?>js/npm.js"></script>
+<script type="text/javascript" src="<?= $baseurl; ?>scripts/soundcloud.player.api.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(e) {
 		// Main Slider Attributes
@@ -32,7 +33,7 @@
 <body>
 <div id="loader">
 	<div class="loader-img">
-		<img src="images/loader.gif" alt="">
+		<img src="<?= $baseurl; ?>images/loader.gif" alt="">
 	</div>
 </div>
 <header>
@@ -43,7 +44,7 @@
     
     	<article class="logo col-sm-8">
         <!-- Logo Starts -->
-        	<a href="index.php"><img src="images/logo.png" alt="Attorney Sanchez" class="img-responsive" /></a>
+        	<a href="index.php"><img src="<?= $baseurl; ?>images/logo.png" alt="Attorney Sanchez" class="img-responsive" /></a>
         <!-- Logo Ends -->
         </article>
         

@@ -40,7 +40,7 @@
 <aside class="col-sm-4">
 <!-- Aside Starts -->
 	<br />
-	<img src="images/gavel.jpg" alt="Drug Crimes" class="img-responsive left-img" />
+	<img src="<?= $baseurl; ?>images/gavel.jpg" alt="Drug Crimes" class="img-responsive left-img" />
 	<br />
 	
     <?php include_once('sidebar.php'); ?> 
