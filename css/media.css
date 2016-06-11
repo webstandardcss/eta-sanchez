@@ -4,6 +4,13 @@
 	}
 }
 
+@media only screen and (max-width: 992px) and (min-width: 768px)  {
+	.social-link {
+		font-size: 12px !important;
+	}
+}
+
+@media only screen and (max-width: 992px) {	.each-post p {		float: none;		clear: both;		display: block;	}		.each-post img {		margin-bottom: 12px;	}}
 @media only screen and (max-width: 768px) { 
 	header {
 		min-height: 155px;
@@ -15,10 +22,11 @@
 	}
 	
 	.phone {
-		position: absolute;
-		top: 50px;
-		right: 15px;
-		z-index: 1000;
+		text-align: center;
+	}
+
+	.phone a {
+		float: none;
 	}
 
 	.banner {
@@ -73,12 +81,37 @@
 		text-align: center;
 	}
 	
+	footer .each-section img {
+		margin-left: 25%;
+		position: relative;
+		left: -55px;
+	}
+	
+	footer .each-section:nth-child(2) {
+		margin-top: -40px;
+		text-align: center;
+	}
+
 	footer .icons {
 		float: none;
 		margin: auto;
-		width: 110px;
-		right: -5px;
+		width: 105px;
 		position: relative;
+		left: calc(25% - 15px);
+		padding: 0;
+	}
+
+	footer .icon {
+		float: right;
+		clear: none;
+		position: absolute;
+	}
+
+	footer .icon:nth-child(1) {
+		float: right;
+		clear: none;
+		position: absolute;
+		right: 0;
 	}
 	
 	.border {
