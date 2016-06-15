@@ -24,18 +24,19 @@
 
 	<article class="each-column">
 	<!-- Each Column Starts -->				
-		<div class="each-result">			
-			<p>Rocio M. ramos recibe su permiso de trabajo y residencia.</p>			
-			<a href="testimonio-rocio-ramos.php">+ M&aacute;s</a>		
-		</div>
-		
+			
 		<div class="each-result">
-			<p>Jose Sanchez Settles Negligence Case Against Smith County in Inmate Death for $1.25 Million</p>
+			<p>Jos&eacute; S&aacute;nchez logra acuerdo en demanda por Accidente y Muerte en Auto. Caso por $1.6 Millones</p>
+			<a href="results-jose-settles-death-car-wreck-case.php">+ More</a>
+		</div>
+	
+		<div class="each-result">
+			<p>Jos&eacute; S&aacute;nchez logr&oacute; un acuerdo en contra del Condado de Smith en el caso de la muerte de un interno por $1.25 Millones de dolares.</p>
 			<a href="results-jose-settles-negligence-case.php">+ More</a>
 		</div>
 	
 		<div class="each-result">
-			<p>Jose Sanchez Settles Negligence Case Against Contractors for $1.6 Million</p>
+			<p>Jos&eacute; S&aacute;nchez alcanz&oacute; un acuerdo en un caso de Negligencia en contra de Contratistas por $1.6 Millones.</p>
 			<a href="results-jose-settles-negligence-case-2.php">+ More</a>
 		</div>
 	
@@ -46,17 +47,17 @@
 	<!-- Each Column Starts -->
 	
 		<div class="each-result">
-			<p>Jose Sanchez Settles Death Car Wreck Case for $1.6 Million</p>
-			<a href="results-jose-settles-death-car-wreck-case.php">+ More</a>
+			<p>Jos&eacute; S&aacute;nchez Logra un Acuerdo en el caso por Lesiones de Un pasajero en un Auto por $180,000</p>
+			<a href="results-jose-settles-passenger-injury-case.php">+ More</a>
 		</div>
 	
 		<div class="each-result">
-			<p>Jose Sanchez Settles Death Case of An Employee For $1 Million</p>
+			<p>Jos&eacute; S&aacute;nchez Establece un acuerdo en el Caso de Muerte de un Empleado por $1 Mill&oacute;n</p>
 			<a href="results-jose-settles-employee-death-case.php">+ More</a>
 		</div>
 	
 		<div class="each-result">
-			<p>Jose Sanchez Settles Truck Death Case for $350,000</p>
+			<p>Jos&eacute; S&aacute;nchez llega a un acuerdo legal en el caso de una muerte en Camioneta por $350,000</p>
 			<a href="results-jose-settles-truck-death-case.php">+ More</a>
 		</div>
 	
@@ -65,11 +66,6 @@
 
 	<article class="each-column">
 	<!-- Each Column Starts -->
-	
-		<div class="each-result">
-			<p>Jose Sanchez Settles Injury Case For Passenger In Car For $180,000</p>
-			<a href="results-jose-settles-passenger-injury-case.php">+ More</a>
-		</div>
 	
 		<div class="each-result">
 			<p>1.6 Million Settlement For Victim in Car Accident</p>

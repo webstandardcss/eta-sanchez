@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1000px) { 
 	.navbar a {
-		padding: 0 12px;
+		padding: 0 7px;
 	}
 }
 
@@ -116,5 +116,16 @@
 	
 	.border {
 		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.each-column {
+		width: 100%;
+		padding: 0 5%;
+	}
+
+	.each-column.pad {
+		width: 100%;
 	}
 }

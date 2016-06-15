@@ -7,10 +7,10 @@
 <section class="notable-header details">
 <!-- Notable Header Starts -->
 
-	<h1>Jose Sanchez Settles Truck Death Case for $350,000</h1>
-	<p>Jose Sanchez and Brent Goudarzi settled a death case in which the deceased was test driving a truck and the tread on the tires were not up to code. Due to this, it caused the truck to go off road and hit another car. </p>
+	<h1>Jos&eacute; S&aacute;nchez llega a un acuerdo legal en el caso de una muerte en Camioneta por $350,000</h1>
 
-	</p>
+	<p>Jos&eacute; S&aacute;nchez y Brent Goudarzi cerraron un caso mediante un acuerdo en el cual el fallecido muri&oacute; al probar una camioneta cuyas llantas no cumpl&iacute;an con los c&oacute;digos de seguridad legales . Esto caus&oacute; que la camioneta se saliera del carril y chocara en contra de otro veh&iacute;culo.</p>
+
 	
 <!-- Notable Header Ends -->
 </section>
@@ -22,24 +22,24 @@
 <div class="row">
 <!-- Notable Results Starts -->
 
-	<h3>More Notable Results</h3>
+	<h3>M&aacute;s Resultados</h3>
 
 	<article class="each-column">
-	<!-- Each Column Starts -->
-	
+	<!-- Each Column Starts -->				
+			
 		<div class="each-result">
-			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
-			<a href="#">+ More</a>
+			<p>Jos&eacute; S&aacute;nchez logra acuerdo en demanda por Accidente y Muerte en Auto. Caso por $1.6 Millones</p>
+			<a href="results-jose-settles-death-car-wreck-case.php">+ More</a>
 		</div>
 	
 		<div class="each-result">
-			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
-			<a href="#">+ More</a>
+			<p>Jos&eacute; S&aacute;nchez logr&oacute; un acuerdo en contra del Condado de Smith en el caso de la muerte de un interno por $1.25 Millones de dolares.</p>
+			<a href="results-jose-settles-negligence-case.php">+ More</a>
 		</div>
 	
 		<div class="each-result">
-			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
-			<a href="#">+ More</a>
+			<p>Jos&eacute; S&aacute;nchez alcanz&oacute; un acuerdo en un caso de Negligencia en contra de Contratistas por $1.6 Millones.</p>
+			<a href="results-jose-settles-negligence-case-2.php">+ More</a>
 		</div>
 	
 	<!-- Each Column Ends -->
@@ -49,18 +49,18 @@
 	<!-- Each Column Starts -->
 	
 		<div class="each-result">
-			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
-			<a href="#">+ More</a>
+			<p>Jos&eacute; S&aacute;nchez Logra un Acuerdo en el caso por Lesiones de Un pasajero en un Auto por $180,000</p>
+			<a href="results-jose-settles-passenger-injury-case.php">+ More</a>
 		</div>
 	
 		<div class="each-result">
-			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
-			<a href="#">+ More</a>
+			<p>Jos&eacute; S&aacute;nchez Establece un acuerdo en el Caso de Muerte de un Empleado por $1 Mill&oacute;n</p>
+			<a href="results-jose-settles-employee-death-case.php">+ More</a>
 		</div>
 	
 		<div class="each-result">
-			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
-			<a href="#">+ More</a>
+			<p>Jos&eacute; S&aacute;nchez llega a un acuerdo legal en el caso de una muerte en Camioneta por $350,000</p>
+			<a href="results-jose-settles-truck-death-case.php">+ More</a>
 		</div>
 	
 	<!-- Each Column Ends -->
@@ -70,17 +70,12 @@
 	<!-- Each Column Starts -->
 	
 		<div class="each-result">
-			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
+			<p>1.6 Million Settlement For Victim in Car Accident</p>
 			<a href="#">+ More</a>
 		</div>
 	
 		<div class="each-result">
-			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
-			<a href="#">+ More</a>
-		</div>
-	
-		<div class="each-result">
-			<p>Andy Payne, Todd Ramsey and Stefanie Bradshaw receive $16.3 Million Dollar Verdict Against Emerson Climate and Fusite</p>
+			<p>1 Million Settlement For Victim in Car Accident</p>
 			<a href="#">+ More</a>
 		</div>
 	
