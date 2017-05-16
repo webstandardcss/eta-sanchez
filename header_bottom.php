@@ -48,6 +48,9 @@
                         <li>
                             <a href="results.php">Results</a>
                         </li>
+						<li>
+                            <a href="http://attorneysanchez.com/news/">News/Blog</a>
+                        </li>
                         <li>
                             <a href="Jose-in-the-News.php">Jose In The News</a>
                         </li>

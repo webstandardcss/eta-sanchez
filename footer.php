@@ -41,7 +41,8 @@ Fax: 903-758-8712<br />
 	<article class="each-section col-sm-4">
     	<h4>Get the newsletter.</h4>
 		<p class="small">Immigration Information, News, laws, new resources, etc.</p>
-		<a href="index.php" class="btn btn-danger">Click here to subscribe</a>
+		<a href="index.php" class="btn btn-danger" >Click here to subscribe</a>
+		<img style="background: #fff; margin:10px;" src="images/2014Member_Member.jpg" class="" alt="2015 Member American Immigration Lawyers Association" background color="white"  height="" width="" align="left" >
     </article>
     <div class="clearfix"></div>
 
