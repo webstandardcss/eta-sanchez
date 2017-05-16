@@ -12,6 +12,15 @@
 	function is_ajax() {
 		return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';
 	}		
+
+	function encodeToUtf8($string) {
+	     return mb_convert_encoding($string, "UTF-8", mb_detect_encoding($string, "UTF-8, ISO-8859-1, ISO-8859-15", true));
+	}
+
+	function encodeToIso($string) {
+	     return mb_convert_encoding($string, "ISO-8859-1", mb_detect_encoding($string, "UTF-8, ISO-8859-1, ISO-8859-15", true));
+	}
+
 	
 	function sendemail(){
 		$return = $_POST;  
@@ -28,6 +37,7 @@
 	
 		$body = "Details:\n\n";
 		foreach ($fields as $a => $b) {   
+			// $body .= sprintf("%s: %s\n\n", $b, encodeToIso($_REQUEST[$a])); 
 			// $body .= sprintf("%s: %s\n\n", $b, html_entity_decode(htmlentities($_REQUEST[$a]))); 
 			$body .= sprintf("%s: %s\n\n", $b, htmlentities($_REQUEST[$a])); 
 		}
