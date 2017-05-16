@@ -40,8 +40,7 @@
   <li>$60,000 en un Acuerdo para Victima en Accidente de Trabajo</li>
   <li>$60,000 en un Acuerdo para Victima en Accidente de Trabajo</li>
 </ul>
-    	<p>You can purchases a rechargable calling card at our office or La Michoacana</p>
-    	<img src="<?= $baseurl; ?>images/ContentHandler5.jpg" alt="Magazine" class="img-responsive" />
+    	
     </article>
     <div class="clearfix"></div>
     <br /><br />
@@ -59,7 +58,7 @@
 	
     <?php include_once('sidebar.php'); ?> 
 	<br />
-	<a href="http://www.kompafm.com/" target="_blank" style="float: none; margin: auto;"><img src="<?= $baseurl; ?>images/kompa.png" alt="Jose in the News" class="img-responsive left-img" /></a>
+	<a href="http://mega993.com/" target="_blank" style="float: none; margin: auto;"><img src="imagess/MEGA_logo_w.png" alt="Jose in the News" class="img-responsive left-img" /></a>
 	<br />
 <!-- Aside Ends -->
 </aside>
