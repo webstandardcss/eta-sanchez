@@ -28,7 +28,8 @@
 	
 		$body = "Details:\n\n";
 		foreach ($fields as $a => $b) {   
-			$body .= sprintf("%s: %s\n\n", $b, $_REQUEST[$a]); 
+			// $body .= sprintf("%s: %s\n\n", $b, html_entity_decode(htmlentities($_REQUEST[$a]))); 
+			$body .= sprintf("%s: %s\n\n", $b, htmlentities($_REQUEST[$a])); 
 		}
 
     	$send = mail($to, $subject, $body, $headers);
