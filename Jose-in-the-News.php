@@ -79,7 +79,7 @@
 	
     <?php include_once('sidebar.php'); ?> 
 	<br />
-	<a href="http://www.kompafm.com/" target="_blank" style="float: none; margin: auto;"><img src="images/kompa.png" alt="Jose in the News" class="img-responsive left-img" /></a>
+	<a href="http://mega993.com/" target="_blank" style="float: none; margin: auto;"><img src="images/MEGA_logo_w.png" alt="Jose in the News" class="img-responsive left-img" /></a>
 	<br />
 <!-- Aside Ends -->
 </aside>

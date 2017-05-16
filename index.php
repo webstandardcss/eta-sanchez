@@ -59,7 +59,9 @@
     </article>
 	
     <article class="videos">
-    	<h2>Youtube Videos</h2>		<iframe width="100%" height="360" src="https://www.youtube.com/embed/videoseries?list=PLpoW6bbdEPDA8Z_n1bA2l7qTFN-noXQfw" frameborder="0" allowfullscreen></iframe>				<h2>Radio Programs</h2>				<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/152557324&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>		
+    	<h2>Youtube Videos</h2>		
+		<iframe width="100%" height="360" src="https://www.youtube.com/embed/videoseries?list=PLpoW6bbdEPDBqWYvE4lh4VVdJ13JbjfL6" frameborder="0" allowfullscreen></iframe>
+						<h2>Radio Programs</h2>				<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/152557324&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>		
     </article>
     
 <!-- Slider Ends -->
@@ -78,7 +80,7 @@
 		<div class="alert alert-danger response" id="mce-error-response" style="display:none"></div>
 		<div class="alert alert-success response" id="mce-success-response" style="display:none"></div>
 	</div>
-        <form action="//execdesks.us11.list-manage.com/subscribe/post?u=95b8f671fd152cc59d6020983&amp;id=ac68cf5c49" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<form action="//Attorneysanchez.us13.list-manage.com/subscribe/post?u=3e31527cf78a6aca1e32566b7&amp;id=5c36bd459e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         	<ul>
         		<li>
         			Name <span>*</span>
@@ -216,7 +218,7 @@ require('news/wp-blog-header.php');
 ?>
 
 <?php
-$posts = get_posts('numberposts=3&order=ASC&orderby=post_title');
+$posts = get_posts('numberposts=3&order=DESC&orderby=post_title');
 foreach ($posts as $post) : setup_postdata( $post ); ?>
         <div class="each-post">
         	<img src="images/blogimg.png" class="border-img" alt="" />
