@@ -1,0 +1,12 @@
+# use glob syntax.
+syntax: glob
+
+.hgignore
+error_log
+*.elc
+*.pyc
+*~
+
+# switch to regexp syntax.
+syntax: regexp
+^\.pc/
