@@ -13,6 +13,8 @@
 		return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';
 	}		
 
+	/****************
+	
 	function encodeToUtf8($string) {
 	     return mb_convert_encoding($string, "UTF-8", mb_detect_encoding($string, "UTF-8, ISO-8859-1, ISO-8859-15", true));
 	}
@@ -21,9 +23,14 @@
 	     return mb_convert_encoding($string, "ISO-8859-1", mb_detect_encoding($string, "UTF-8, ISO-8859-1, ISO-8859-15", true));
 	}
 	
-	/* function strReplaceAssoc($replace, $subject) { 
+	 function strReplaceAssoc($replace, $subject) { 
 		return str_replace(array_keys($replace), array_values($replace), $subject);    
-	} */
+	}
+
+	function convert_replace_assoc($string) {
+		$string = str_replace(array_keys($convert_replace_array), array_values($convert_replace_array), $string);
+	    return $string;
+	}	
 	
 	$convert_replace_array = array( 
 		'&Atilde;&sup3;' => 'o', 
@@ -31,26 +38,23 @@
 		'&plusmn;' => ''
 	); 
 	
-	function convert_replace($string) {
-		$string_replaced = str_replace(array_keys($convert_replace_array), array_values($convert_replace_array), $string);
-	    return $string_replaced;
-	}
+*****************/	
 
-	/* function convert_replace($string) {
-		$source = array("&Atilde;&sup3;", "&Atilde;", "&shy;", "&sup3;", "&plusmn;");
-		$destination   = array("o", "a", "", "", "+-");
-		$replaced = str_replace($source, $destination, $string);
-	    return $string_replaced;
-	} */
+	function convert_replace($string) {
+		$source = array('&Atilde;&sup3;', '&Atilde;&shy;', '&Atilde;&plusmn;');
+		$destination   = array('o', 'a', 'i');
+		$string = str_replace($source, $destination, $string);
+	    return $string;
+	}
 
 	function convert_data($string) {
-		 $string_html = htmlentities($string);
-		 // $string_html_decoded = html_entity_decode($string_html, null, "UTF-8"); 
-		 $string_replaced = convert_replace($string_html);
-	     return $string_replaced; 
+		 $string = htmlentities($string);
+		 // $string = html_entity_decode($string, null, "UTF-8"); 
+		 $string = convert_replace($string);
+	     return $string; 
 	}
 
-	function sendemail(){
+	function sendemail(){ 
 		$return = $_POST;  
 		
 		
