@@ -1,4 +1,11 @@
 <?php	
+
+	/****************
+
+	//Initialize if the request is an AJAX request
+
+	*****************/	
+
 	if (is_ajax()) {
 		if (isset($_POST["action"]) && !empty($_POST["action"])) { //Checks if action value exists
 			$action = $_POST["action"];
@@ -8,37 +15,21 @@
 		}
 	}
 	
+	/****************
+
 	//Function to check if the request is an AJAX request
+
+	*****************/	
+
 	function is_ajax() {
 		return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';
 	}		
 
 	/****************
 	
-	function encodeToUtf8($string) {
-	     return mb_convert_encoding($string, "UTF-8", mb_detect_encoding($string, "UTF-8, ISO-8859-1, ISO-8859-15", true));
-	}
-
-	function encodeToIso($string) {
-	     return mb_convert_encoding($string, "ISO-8859-1", mb_detect_encoding($string, "UTF-8, ISO-8859-1, ISO-8859-15", true));
-	}
+	// Fix the malformed spanish characters
 	
-	 function strReplaceAssoc($replace, $subject) { 
-		return str_replace(array_keys($replace), array_values($replace), $subject);    
-	}
-
-	function convert_replace_assoc($string) {
-		$string = str_replace(array_keys($convert_replace_array), array_values($convert_replace_array), $string);
-	    return $string;
-	}	
-	
-	$convert_replace_array = array( 
-		'&Atilde;&sup3;' => 'o', 
-		'&shy;' => '', 
-		'&plusmn;' => ''
-	); 
-	
-*****************/	
+	*****************/	
 
 	function convert_replace($string) {
 		$source = array('&Atilde;&sup3;', '&Atilde;&shy;', '&Atilde;&plusmn;');
@@ -54,6 +45,13 @@
 	     return $string; 
 	}
 
+	/****************
+	
+	// Send the mail
+	
+	*****************/	
+
+	
 	function sendemail(){ 
 		$return = $_POST;  
 		
@@ -69,11 +67,7 @@
 	
 		$body = "Details:\n\n";
 		foreach ($fields as $a => $b) {   
-			//$body .= sprintf("%s: %s\n\n", $b, $_REQUEST[$a]); 
-			//$body .= sprintf("%s: %s\n\n", $b, encodeToIso($_REQUEST[$a])); 
-			//$body .= sprintf("%s: %s\n\n", $b, html_entity_decode(htmlentities($_REQUEST[$a]))); 
-			// - Converted the next line into the function convert_data()
-			//$body .= sprintf("%s: %s\n\n", $b, html_entity_decode(htmlentities($_REQUEST[$a], null, "UTF-8"))); 
+			// - Fix the malformed spanish characters
 			$body .= sprintf("%s: %s\n\n", $b, convert_data($_REQUEST[$a])); 
 		}
 
