@@ -33,7 +33,7 @@
 
 	function convert_replace($string) {
 		$source = array('&Atilde;&sup3;', '&Atilde;&shy;', '&Atilde;&plusmn;');
-		$destination   = array('o', 'a', 'i');
+		$destination   = array('o', 'a', 'n');
 		$string = str_replace($source, $destination, $string);
 	    return $string;
 	}
